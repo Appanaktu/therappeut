@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151BF25FF827B8DAFE645714 /* Pods_therappeut_therappeutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7CA0842C9702A945398AF1 /* Pods_therappeut_therappeutUITests.framework */; };
+		77E3B464CC70B9E1124F900B /* Pods_therappeut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D5875980A8FCEEEDE4624A /* Pods_therappeut.framework */; };
+		9BB8971D239940AC00862F3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8971C239940AC00862F3E /* GoogleService-Info.plist */; };
 		9BF062A82374746A007F2735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062A72374746A007F2735 /* AppDelegate.swift */; };
 		9BF062AA2374746A007F2735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062A92374746A007F2735 /* SceneDelegate.swift */; };
 		9BF062AC2374746A007F2735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062AB2374746A007F2735 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		9BF062B42374746C007F2735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF062B22374746C007F2735 /* LaunchScreen.storyboard */; };
 		9BF062BF2374746C007F2735 /* therappeutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062BE2374746C007F2735 /* therappeutTests.swift */; };
 		9BF062CA2374746C007F2735 /* therappeutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062C92374746C007F2735 /* therappeutUITests.swift */; };
+		E9914BBDE0A5A49F7140BC3C /* Pods_therappeutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A911F1D5A7AED8559493969 /* Pods_therappeutTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06466FE81229CB29341EB39C /* Pods-therappeut-therappeutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeut-therappeutUITests.release.xcconfig"; path = "Target Support Files/Pods-therappeut-therappeutUITests/Pods-therappeut-therappeutUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11086522F348C382766F0CA7 /* Pods-therappeutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeutTests.debug.xcconfig"; path = "Target Support Files/Pods-therappeutTests/Pods-therappeutTests.debug.xcconfig"; sourceTree = "<group>"; };
+		242CFDBDDEC1B4C298A2CA76 /* Pods-therappeut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeut.release.xcconfig"; path = "Target Support Files/Pods-therappeut/Pods-therappeut.release.xcconfig"; sourceTree = "<group>"; };
+		5A7CA0842C9702A945398AF1 /* Pods_therappeut_therappeutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_therappeut_therappeutUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D5875980A8FCEEEDE4624A /* Pods_therappeut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_therappeut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A911F1D5A7AED8559493969 /* Pods_therappeutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_therappeutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BB8971C239940AC00862F3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BF062A42374746A007F2735 /* therappeut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = therappeut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF062A72374746A007F2735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF062A92374746A007F2735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		9BF062C52374746C007F2735 /* therappeutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = therappeutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF062C92374746C007F2735 /* therappeutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = therappeutUITests.swift; sourceTree = "<group>"; };
 		9BF062CB2374746C007F2735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C7B27EF459C4A3CBA0F2F9B /* Pods-therappeut-therappeutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeut-therappeutUITests.debug.xcconfig"; path = "Target Support Files/Pods-therappeut-therappeutUITests/Pods-therappeut-therappeutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C7EC814072F27B699D9F4B /* Pods-therappeutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeutTests.release.xcconfig"; path = "Target Support Files/Pods-therappeutTests/Pods-therappeutTests.release.xcconfig"; sourceTree = "<group>"; };
+		E96B20660CDAA30DB0A5E4A2 /* Pods-therappeut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-therappeut.debug.xcconfig"; path = "Target Support Files/Pods-therappeut/Pods-therappeut.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E3B464CC70B9E1124F900B /* Pods_therappeut.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9914BBDE0A5A49F7140BC3C /* Pods_therappeutTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151BF25FF827B8DAFE645714 /* Pods_therappeut_therappeutUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BC23FF923994B1500BC2DD8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BF062AB2374746A007F2735 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9BC23FFA23994B2400BC2DD8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9BF062AD2374746A007F2735 /* Main.storyboard */,
+				9BF062B02374746C007F2735 /* Assets.xcassets */,
+				9BF062B22374746C007F2735 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9BC23FFB23994B2C00BC2DD8 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9BB8971C239940AC00862F3E /* GoogleService-Info.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		9BC23FFC23994B4900BC2DD8 /* App Template */ = {
+			isa = PBXGroup;
+			children = (
+				9BF062A92374746A007F2735 /* SceneDelegate.swift */,
+				9BF062A72374746A007F2735 /* AppDelegate.swift */,
+			);
+			path = "App Template";
+			sourceTree = "<group>";
+		};
 		9BF0629B2374746A007F2735 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				9BF062BD2374746C007F2735 /* therappeutTests */,
 				9BF062C82374746C007F2735 /* therappeutUITests */,
 				9BF062A52374746A007F2735 /* Products */,
+				BE1606BF1459F4949F8A54D0 /* Pods */,
+				BCD7D149A050836745E550BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,11 @@
 		9BF062A62374746A007F2735 /* therappeut */ = {
 			isa = PBXGroup;
 			children = (
-				9BF062A72374746A007F2735 /* AppDelegate.swift */,
-				9BF062A92374746A007F2735 /* SceneDelegate.swift */,
-				9BF062AB2374746A007F2735 /* ViewController.swift */,
-				9BF062AD2374746A007F2735 /* Main.storyboard */,
-				9BF062B02374746C007F2735 /* Assets.xcassets */,
-				9BF062B22374746C007F2735 /* LaunchScreen.storyboard */,
 				9BF062B52374746C007F2735 /* Info.plist */,
+				9BC23FFB23994B2C00BC2DD8 /* Firebase */,
+				9BC23FFC23994B4900BC2DD8 /* App Template */,
+				9BC23FFA23994B2400BC2DD8 /* UI */,
+				9BC23FF923994B1500BC2DD8 /* ViewControllers */,
 			);
 			path = therappeut;
 			sourceTree = "<group>";
@@ -128,6 +180,29 @@
 			path = therappeutUITests;
 			sourceTree = "<group>";
 		};
+		BCD7D149A050836745E550BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D5875980A8FCEEEDE4624A /* Pods_therappeut.framework */,
+				5A7CA0842C9702A945398AF1 /* Pods_therappeut_therappeutUITests.framework */,
+				9A911F1D5A7AED8559493969 /* Pods_therappeutTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1606BF1459F4949F8A54D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E96B20660CDAA30DB0A5E4A2 /* Pods-therappeut.debug.xcconfig */,
+				242CFDBDDEC1B4C298A2CA76 /* Pods-therappeut.release.xcconfig */,
+				9C7B27EF459C4A3CBA0F2F9B /* Pods-therappeut-therappeutUITests.debug.xcconfig */,
+				06466FE81229CB29341EB39C /* Pods-therappeut-therappeutUITests.release.xcconfig */,
+				11086522F348C382766F0CA7 /* Pods-therappeutTests.debug.xcconfig */,
+				E6C7EC814072F27B699D9F4B /* Pods-therappeutTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF062CE2374746C007F2735 /* Build configuration list for PBXNativeTarget "therappeut" */;
 			buildPhases = (
+				9B12C8E8C141F59E6E68F01E /* [CP] Check Pods Manifest.lock */,
 				9BF062A02374746A007F2735 /* Sources */,
 				9BF062A12374746A007F2735 /* Frameworks */,
 				9BF062A22374746A007F2735 /* Resources */,
+				3369765C0AD4700819715E30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF062D12374746C007F2735 /* Build configuration list for PBXNativeTarget "therappeutTests" */;
 			buildPhases = (
+				2AF2E7C76B944546557F193D /* [CP] Check Pods Manifest.lock */,
 				9BF062B62374746C007F2735 /* Sources */,
 				9BF062B72374746C007F2735 /* Frameworks */,
 				9BF062B82374746C007F2735 /* Resources */,
@@ -170,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BF062D42374746C007F2735 /* Build configuration list for PBXNativeTarget "therappeutUITests" */;
 			buildPhases = (
+				43FE986F6092D399EF44A7EA /* [CP] Check Pods Manifest.lock */,
 				9BF062C12374746C007F2735 /* Sources */,
 				9BF062C22374746C007F2735 /* Frameworks */,
 				9BF062C32374746C007F2735 /* Resources */,
+				EDE5A59B2CA7164AF0A496DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF062B42374746C007F2735 /* LaunchScreen.storyboard in Resources */,
+				9BB8971D239940AC00862F3E /* GoogleService-Info.plist in Resources */,
 				9BF062B12374746C007F2735 /* Assets.xcassets in Resources */,
 				9BF062AF2374746A007F2735 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +334,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AF2E7C76B944546557F193D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-therappeutTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3369765C0AD4700819715E30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-therappeut/Pods-therappeut-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-therappeut/Pods-therappeut-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-therappeut/Pods-therappeut-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FE986F6092D399EF44A7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-therappeut-therappeutUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B12C8E8C141F59E6E68F01E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-therappeut-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE5A59B2CA7164AF0A496DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-therappeut-therappeutUITests/Pods-therappeut-therappeutUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-therappeut-therappeutUITests/Pods-therappeut-therappeutUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-therappeut-therappeutUITests/Pods-therappeut-therappeutUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BF062A02374746A007F2735 /* Sources */ = {
@@ -432,6 +616,7 @@
 		};
 		9BF062CF2374746C007F2735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96B20660CDAA30DB0A5E4A2 /* Pods-therappeut.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +636,7 @@
 		};
 		9BF062D02374746C007F2735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242CFDBDDEC1B4C298A2CA76 /* Pods-therappeut.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +656,7 @@
 		};
 		9BF062D22374746C007F2735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11086522F348C382766F0CA7 /* Pods-therappeutTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +679,7 @@
 		};
 		9BF062D32374746C007F2735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C7EC814072F27B699D9F4B /* Pods-therappeutTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +702,7 @@
 		};
 		9BF062D52374746C007F2735 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7B27EF459C4A3CBA0F2F9B /* Pods-therappeut-therappeutUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +723,7 @@
 		};
 		9BF062D62374746C007F2735 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06466FE81229CB29341EB39C /* Pods-therappeut-therappeutUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
