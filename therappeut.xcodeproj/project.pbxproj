@@ -10,6 +10,11 @@
 		151BF25FF827B8DAFE645714 /* Pods_therappeut_therappeutUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7CA0842C9702A945398AF1 /* Pods_therappeut_therappeutUITests.framework */; };
 		77E3B464CC70B9E1124F900B /* Pods_therappeut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D5875980A8FCEEEDE4624A /* Pods_therappeut.framework */; };
 		9BB8971D239940AC00862F3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BB8971C239940AC00862F3E /* GoogleService-Info.plist */; };
+		9BC23FFE239AB1A300BC2DD8 /* TermineHeuteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC23FFD239AB1A300BC2DD8 /* TermineHeuteViewController.swift */; };
+		9BC24002239E562A00BC2DD8 /* TherapieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC24001239E562A00BC2DD8 /* TherapieTableViewCell.swift */; };
+		9BE33EDD23A0CF3800319858 /* Termin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE33EDC23A0CF3800319858 /* Termin.swift */; };
+		9BE33EDF23A0D8D400319858 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE33EDE23A0D8D400319858 /* FirebaseHelper.swift */; };
+		9BF02EDC23A0C7C300B54457 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF02EDB23A0C7C300B54457 /* RoundedView.swift */; };
 		9BF062A82374746A007F2735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062A72374746A007F2735 /* AppDelegate.swift */; };
 		9BF062AA2374746A007F2735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062A92374746A007F2735 /* SceneDelegate.swift */; };
 		9BF062AC2374746A007F2735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF062AB2374746A007F2735 /* ViewController.swift */; };
@@ -46,6 +51,11 @@
 		62D5875980A8FCEEEDE4624A /* Pods_therappeut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_therappeut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A911F1D5A7AED8559493969 /* Pods_therappeutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_therappeutTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB8971C239940AC00862F3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BC23FFD239AB1A300BC2DD8 /* TermineHeuteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermineHeuteViewController.swift; sourceTree = "<group>"; };
+		9BC24001239E562A00BC2DD8 /* TherapieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapieTableViewCell.swift; sourceTree = "<group>"; };
+		9BE33EDC23A0CF3800319858 /* Termin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termin.swift; sourceTree = "<group>"; };
+		9BE33EDE23A0D8D400319858 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		9BF02EDB23A0C7C300B54457 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
 		9BF062A42374746A007F2735 /* therappeut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = therappeut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF062A72374746A007F2735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF062A92374746A007F2735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				9BF062AB2374746A007F2735 /* ViewController.swift */,
+				9BC23FFD239AB1A300BC2DD8 /* TermineHeuteViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -115,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				9BB8971C239940AC00862F3E /* GoogleService-Info.plist */,
+				9BE33EDE23A0D8D400319858 /* FirebaseHelper.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -126,6 +138,39 @@
 				9BF062A72374746A007F2735 /* AppDelegate.swift */,
 			);
 			path = "App Template";
+			sourceTree = "<group>";
+		};
+		9BC23FFF239E55D400BC2DD8 /* Custom Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				9BF02EDA23A0C7A700B54457 /* Views */,
+				9BC24000239E55E900BC2DD8 /* TableViewCells */,
+			);
+			path = "Custom Subclasses";
+			sourceTree = "<group>";
+		};
+		9BC24000239E55E900BC2DD8 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				9BC24001239E562A00BC2DD8 /* TherapieTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		9BE33EDB23A0CF1D00319858 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BE33EDC23A0CF3800319858 /* Termin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9BF02EDA23A0C7A700B54457 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BF02EDB23A0C7C300B54457 /* RoundedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		9BF0629B2374746A007F2735 = {
@@ -154,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				9BF062B52374746C007F2735 /* Info.plist */,
+				9BE33EDB23A0CF1D00319858 /* Models */,
+				9BC23FFF239E55D400BC2DD8 /* Custom Subclasses */,
 				9BC23FFB23994B2C00BC2DD8 /* Firebase */,
 				9BC23FFC23994B4900BC2DD8 /* App Template */,
 				9BC23FFA23994B2400BC2DD8 /* UI */,
@@ -443,8 +490,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE33EDF23A0D8D400319858 /* FirebaseHelper.swift in Sources */,
 				9BF062AC2374746A007F2735 /* ViewController.swift in Sources */,
 				9BF062A82374746A007F2735 /* AppDelegate.swift in Sources */,
+				9BF02EDC23A0C7C300B54457 /* RoundedView.swift in Sources */,
+				9BC23FFE239AB1A300BC2DD8 /* TermineHeuteViewController.swift in Sources */,
+				9BE33EDD23A0CF3800319858 /* Termin.swift in Sources */,
+				9BC24002239E562A00BC2DD8 /* TherapieTableViewCell.swift in Sources */,
 				9BF062AA2374746A007F2735 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
