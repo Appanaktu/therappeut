@@ -8,14 +8,26 @@
 
 import UIKit
 
+protocol TherapieCellDelegate{
+    func detailButtonTapped(sender: TherapieTableViewCell)
+}
+
 class TherapieTableViewCell: UITableViewCell {
     
     @IBOutlet weak var view: RoundedView!
     @IBOutlet weak var therapieLabel: UILabel!
     @IBOutlet weak var detailLabel: UILabel!
     
-    func configure(for termin: Termin) {
+    var delegate: TherapieCellDelegate?
+    var termin: Termin?
+    
+    func configure(for termin: Termin, delegate: TherapieCellDelegate) {
         therapieLabel.text = termin.therapie
         detailLabel.text = termin.region
+        self.termin = termin
+        self.delegate = delegate
+    }
+    @IBAction func buttonHandler(_ sender: Any) {
+        delegate?.detailButtonTapped(sender: self)
     }
 }
