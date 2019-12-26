@@ -77,6 +77,6 @@ extension TermineHeuteViewController: TherapieCellDelegate{
 extension TermineHeuteViewController: AddTerminDelegate{
     func addTerminButtonTapped(sender: TermineHeuteViewController) {
             performSegue(withIdentifier: "AddTerminSegue", sender: nil)
-        }
     }
 }
+
